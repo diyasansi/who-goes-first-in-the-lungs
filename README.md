@@ -68,7 +68,7 @@ As a result:
 
 ---
 
-## 🔄 Continuous Learning Is Essential
+## Continuous Learning Is Essential
 
 Medical data evolves. Imaging protocols change, patient populations shift, and disease presentation can vary.
 
@@ -82,7 +82,7 @@ For this reason:
 ## Intended Use
 
 ✔️ Clinical decision support  
-✔️ Triage prioritization  
+✔️ Triage prioritisation  
 ✔️ Research and educational purposes  
 
 ❌ Automated diagnosis  
@@ -100,19 +100,16 @@ https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia
 
 Although the dataset is publicly accessible for research and educational purposes on Kaggle, *public availability does not imply permission to redistribute*. Kaggle hosts the data, but the images themselves are subject to licensing and usage restrictions set by their original creators. In many medical datasets, redistribution—especially on public platforms like GitHub—is explicitly discouraged or prohibited.
 
-Medical imaging data also carries important ethical considerations: even when images are anonymized, they originate from real patients. To respect these constraints and avoid unintended misuse, this repository excludes all raw medical images.
+Medical imaging data also carries important ethical considerations: even when images are anonymised, they originate from real patients. To respect these constraints and avoid unintended misuse, this repository excludes all raw medical images.
 
 Instead, this project focuses on:
 - The **methodology** for preprocessing and feature extraction
-- The **modeling and evaluation pipeline**
-- **Derived outputs** such as plots, metrics, and example visualizations
+- The **modelling and evaluation pipeline**
+- **Derived outputs** such as plots, metrics, and example visualisations
 - Clear instructions for how to download the dataset and reproduce the workflow locally
 
 Users who wish to reproduce the results can download the dataset from the Kaggle link above and follow the provided instructions to generate features and train models.
 
-This approach prioritizes **ethical data use, reproducibility, and transparency**, while respecting patient privacy and dataset licensing requirements.
+This approach prioritises **ethical data use, reproducibility, and transparency**, while respecting patient privacy and dataset licensing requirements.
 
-
-
-This repository is structured to support transparency and reproducibility:
 
