@@ -1,5 +1,5 @@
 # 🩺 Who Goes First in the Lungs  
-* A decision-support tool for prioritising care, not replacing it*
+*A decision-support tool for prioritising care, not replacing it*
 
 ---
 
