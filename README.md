@@ -5,14 +5,11 @@
 
 ## Why This Project Exists
 
-In healthcare, especially during periods of extreme pressure—such as pandemics, staff shortages, or high patient volumes—**time becomes one of the most limited resources**. Clinicians are often required to make rapid decisions about which patients to assess first, knowing that delays can have serious consequences.
+In high-pressure healthcare settings, clinicians are often forced to make rapid decisions about who needs attention first. When time, staff, and resources are limited, even a short delay can matter.
 
-This project was built with that reality in mind.
+This project explores how machine learning can support those moments by analyzing chest X-ray images and ranking cases by urgency. Rather than attempting to diagnose patients, the system is designed to surface images that may warrant earlier review, helping clinicians prioritize their attention when workloads are high.
 
-Rather than attempting to **diagnose** patients, the goal of this project is to **support clinical triage**:  
-to help **rank chest X-ray images by urgency**, allowing medical professionals to prioritise which cases may require earlier review when workloads are high.
-
-At its core, this is a **decision-support system**, not a diagnostic tool.
+The emphasis throughout this work is on interpretability, clinically meaningful evaluation, and responsible use of machine learning as a decision-support tool—not a replacement for expert judgment.
 
 ---
 
