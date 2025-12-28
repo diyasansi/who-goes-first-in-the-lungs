@@ -1,9 +1,9 @@
-# 🩺 Chest X-Ray Triage with Machine Learning  
-*A decision-support tool for prioritising care, not replacing it*
+# 🩺 Who Goes First in the Lungs  
+* A decision-support tool for prioritising care, not replacing it*
 
 ---
 
-##  Why This Project Exists
+## Why This Project Exists
 
 In healthcare, especially during periods of extreme pressure—such as pandemics, staff shortages, or high patient volumes—**time becomes one of the most limited resources**. Clinicians are often required to make rapid decisions about which patients to assess first, knowing that delays can have serious consequences.
 
@@ -36,7 +36,7 @@ All predictions should be interpreted **in context**, alongside clinical experti
 
 ---
 
-## How the System Works
+## How the System Works 
 
 - Chest X-ray images are standardised through preprocessing
 - Images are converted into numerical representations using **Histogram of Oriented Gradients (HOG)**
@@ -68,7 +68,7 @@ As a result:
 
 ---
 
-## Continuous Learning Is Essential
+## 🔄 Continuous Learning Is Essential
 
 Medical data evolves. Imaging protocols change, patient populations shift, and disease presentation can vary.
 
@@ -82,10 +82,37 @@ For this reason:
 ## Intended Use
 
 ✔️ Clinical decision support  
-✔️ Triage prioritisation  
+✔️ Triage prioritization  
 ✔️ Research and educational purposes  
 
 ❌ Automated diagnosis  
 ❌ Standalone medical decision-making  
 ❌ Replacement for expert review  
+
+---
+
+## 📁 Data Availability and Privacy
+
+The raw chest X-ray images used in this project are **not included in this repository**.
+
+The dataset this project uses can be found here:  
+https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia
+
+Although the dataset is publicly accessible for research and educational purposes on Kaggle, *public availability does not imply permission to redistribute*. Kaggle hosts the data, but the images themselves are subject to licensing and usage restrictions set by their original creators. In many medical datasets, redistribution—especially on public platforms like GitHub—is explicitly discouraged or prohibited.
+
+Medical imaging data also carries important ethical considerations: even when images are anonymized, they originate from real patients. To respect these constraints and avoid unintended misuse, this repository excludes all raw medical images.
+
+Instead, this project focuses on:
+- The **methodology** for preprocessing and feature extraction
+- The **modeling and evaluation pipeline**
+- **Derived outputs** such as plots, metrics, and example visualizations
+- Clear instructions for how to download the dataset and reproduce the workflow locally
+
+Users who wish to reproduce the results can download the dataset from the Kaggle link above and follow the provided instructions to generate features and train models.
+
+This approach prioritizes **ethical data use, reproducibility, and transparency**, while respecting patient privacy and dataset licensing requirements.
+
+
+
+This repository is structured to support transparency and reproducibility:
 
