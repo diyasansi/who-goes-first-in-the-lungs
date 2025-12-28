@@ -66,8 +66,6 @@ As a result:
 - The model cannot be assumed to perform equally across all populations
 - Ongoing evaluation and validation are essential in any real-world use
 
-Ethical machine learning is not a one-time task—it requires continuous reflection and monitoring.
-
 ---
 
 ## Continuous Learning Is Essential
@@ -78,8 +76,6 @@ For this reason:
 - The model should be **continuously retrained and tested** on newer data
 - Performance should be monitored for drift and bias
 - Decision thresholds may need adjustment based on clinical priorities
-
-A static model in a dynamic healthcare environment is not sufficient.
 
 ---
 
@@ -93,4 +89,3 @@ A static model in a dynamic healthcare environment is not sufficient.
 ❌ Standalone medical decision-making  
 ❌ Replacement for expert review  
 
----
